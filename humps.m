@@ -1,8 +1,7 @@
 clear;
 clc;
 % Definiowanie wektorów 1 elementowych, kolumnowych
-macierz=humps(0:0.05:2);
-[P, T]=macierz;
+[P, T]=humps(0:0.05:2);
 % Definiowanie sieci wielowarstwowej uczonej metodą wstecznej propagacji błędów
 %Uczenie metodą największego spadku, 3 neurony w warstwie ukrytej
 LN=8; %Liczba neuronów
